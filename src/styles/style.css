@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#3b1566, #5f4da8);
+  background-image: linear-gradient(#4e2720, #644848);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #000;
 }
 
 button {
@@ -21,31 +22,41 @@ button {
   cursor: pointer;
 }
 
-.music-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #track-information {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;
   font-size: 1.5rem;
 }
 
 
 #rewind, #forward {
   font-size: 3rem;
+  color: #b2b2b2;
 }
 
 #play-pause {
   font-size: 4rem;
+  color: #b2b2b2;
+}
+
+#play-pause:hover {
+  color: #FFF;
+}
+
+#rewind:hover {
+  color: #FFF;
+}
+
+#forward:hover {
+  color: #FFF;
 }
 
 #container-buttons {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background-color: #222222;
+  border: 1px solid #000;
 }
